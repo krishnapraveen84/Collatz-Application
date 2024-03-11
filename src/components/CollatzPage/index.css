@@ -1,0 +1,96 @@
+.bg-container{
+    background-color: black;
+    padding: 15px;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+.heading{
+    color: rgb(224, 220, 220);
+    font-size: 28px;
+    margin-left: 15px;
+}
+.heading-heigh{
+    color: rgb(9, 125, 198);
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 540;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+}
+.label{
+    color: white;
+    font-weight: 530;
+    font-size: 18PX;
+    margin-bottom: 15px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.submit-btn{
+    width: 160px;
+    border-style: none;
+    outline: none;
+    background-color: rgb(10, 96, 188);
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    height: 40px;
+    margin-left: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.graph-container-lg{
+    display: flex;
+    justify-content: center;
+}
+.graph-container-sm{
+    display: none;
+    
+}
+.seq-nums{
+    color: rgb(15, 184, 206);
+    font-size: 18px;
+}
+.sequecnce-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+.sub-heading{
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 25px;
+}
+@media screen and (max-width: 768px){
+    .graph-container-lg{
+        display: none;
+    }
+    .graph-container-sm{
+        display: flex;
+    }
+}
